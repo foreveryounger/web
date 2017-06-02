@@ -51,7 +51,7 @@ class GetMovieData_Posts_Widget extends WP_Widget {
 						echo $args['before_title'] . $title . $args['after_title'];
 			if ( !empty ( $link_title ) ) {
 					echo '</div>';
-					echo '<div class="col-md-2"><div class="module-linktitle"><h4><a href="'.$link_title.'" title="'.__( 'Watch ','getmoviedata' ). $title .'">'.__( 'Lihat Semua','getmoviedata' ).'</a></h4></div></div>';
+					echo '<div class="col-md-2"><div class="module-linktitle"><h4><a href="'.$link_title.'" title="'.__( 'Watch ','getmoviedata' ). $title .'">'.__( 'More','getmoviedata' ).'</a></h4></div></div>';
 				echo '</div>';
 			}
 		}
